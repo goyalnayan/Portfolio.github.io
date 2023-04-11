@@ -1793,6 +1793,7 @@ body.light-skin .header.sticky .navbar.default:before {
 	padding: 30px 0;
 	opacity: 1;
 	visibility: visible;
+
 }
 
 .menu-full ul li.opened .scrolla-element-anim-1 {
@@ -2526,10 +2527,9 @@ body.light-skin .header.sticky .navbar.default:before {
 }
 
 .history-right {
-	/* float: right; */
+	/* float:none; */
 	width: 270px;
 }
-
 .history-item {
 	margin-top: 40px;
 }
@@ -2540,19 +2540,25 @@ body.light-skin .header.sticky .navbar.default:before {
 
 .history-item .date, .history-item .subname {
 	font-size: 18px;
-	color: #91959b;
+	color: #9b9891;
 	font-weight: 300;
 }
 
 .history-item .name {
 	font-size: 24px;
 	font-weight: 700;
+	text-decoration: underline;
 }
 
 .history-item .text {
 	margin: 16px 0 0 0;
 	font-size: 18px;
-	color: #bdc1c7;
+	color: #d3d7dc;
+}
+
+.history-item .img {
+	max-width: 45%;
+	border: 2px solid rgb(0, 102, 255);
 }
 
 
