@@ -2584,7 +2584,10 @@ body.light-skin .header.sticky .navbar.default:before {
 	border: 1px solid rgb(89, 83, 83);
 }
 .history-item2 .img:hover {
-	border: 2px solid #ff8059;
+	width: 98%;
+}
+.history-item2 .img {
+	border: 2px solid #1414f0;
 	width: 98%;
 }
 
@@ -2607,7 +2610,7 @@ body.light-skin .header.sticky .navbar.default:before {
 .history-item2 .text {
 	margin: 16px 0 0 0;
 	font-size: 18px;
-	color: #d3d7dc;
+	color: #070b10;
 }
 
 /**
