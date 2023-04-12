@@ -905,7 +905,7 @@ hr {
 
 .preloader .spinner-logo img {
 	margin-bottom: 30px;
-	max-width: 100%;
+	max-width: 200%;
 }
 
 .preloader .spinner.spinner-line {
